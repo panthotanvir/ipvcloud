@@ -1,0 +1,32 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>IPV CLOUD</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Bootstrap 3.3.5 -->
+    {% include 'include_files/css.html'%}
+
+  </head>
+  <body class="hold-transition skin-blue sidebar-mini">
+    <div class="wrapper">
+        {% include 'include_files/main_header.html' %}
+        {% include 'include_files/main_sidebar.html' %}
+
+        {% block content%}
+
+        {%  endblock %}
+
+
+        {% include 'include_files/main_footer.html' %}
+        {% include 'include_files/control_sidebar.html' %}
+
+    </div><!-- ./wrapper -->
+
+  {% include 'include_files/js.html' %}
+  </body>
+</html>
