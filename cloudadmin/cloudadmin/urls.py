@@ -17,6 +17,9 @@ from django.conf.urls import include, url
 from django.contrib import admin
 
 urlpatterns = [
-    url(r'^$','dashboard.views.home', name='sign_up'),
-    url(r'^admin/', include(admin.site.urls)),
+    url(r'^$','admin_panel.views.login_page', name="admin_panel"),
+    url(r'^login_admin/$', 'admin_panel.views.admin_login', name="admin_login"),
+    url(r'^login_panel/$', 'admin_panel.views.admin_panel', name="admin_panel"),
+    url(r'^admin_form/([0-9])/$', 'admin_panel.views.admin_form', name="admin_form"),
+
 ]

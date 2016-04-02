@@ -3,7 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../../../djangoWorks/env_django/.idea/env_django.iml" filepath="$PROJECT_DIR$/../../../djangoWorks/env_django/.idea/env_django.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../ipv_infinity/.idea/ipv_infinity.iml" filepath="$PROJECT_DIR$/../../../ipv_infinity/.idea/ipv_infinity.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ipvcloud.iml" filepath="$PROJECT_DIR$/.idea/ipvcloud.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/untitled/.idea/untitled.iml" filepath="$USER_HOME$/PycharmProjects/untitled/.idea/untitled.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../video/.idea/video.iml" filepath="$PROJECT_DIR$/../../../video/.idea/video.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../web/.idea/web.iml" filepath="$PROJECT_DIR$/../../../web/.idea/web.iml" />
     </modules>
   </component>
 </project>

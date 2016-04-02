@@ -5,5 +5,9 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="env_django" />
+    <orderEntry type="module" module-name="video" />
+    <orderEntry type="module" module-name="web" />
+    <orderEntry type="module" module-name="ipv_infinity" />
+    <orderEntry type="module" module-name="untitled" />
   </component>
 </module>

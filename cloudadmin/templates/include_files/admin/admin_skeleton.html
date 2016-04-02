@@ -5,17 +5,17 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>IPV CLOUD</title>
+    <title>Admin Panel</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.5 -->
     {% include 'include_files/css.html'%}
 
   </head>
-  <body class="sidebar-mini wysihtml5-supported skin-green">
+  <body class="layout-boxed sidebar-mini skin-blue">
     <div class="wrapper">
-        {% include 'include_files/main_header.html' %}
-        {% include 'include_files/main_sidebar.html' %}
+        {% include 'include_files/admin/admin_header.html' %}
+        {% include 'include_files/admin/admin_sidebar.html' %}
 
         {% block content%}
 

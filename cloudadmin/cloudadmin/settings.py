@@ -37,7 +37,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'dashboard',
+    'admin_panel'
 )
 
 MIDDLEWARE_CLASSES = (
@@ -99,6 +99,8 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
+
+PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 
 STATIC_URL = '/static/'
 

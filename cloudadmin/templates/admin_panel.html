@@ -1,0 +1,265 @@
+{% extends 'include_files/admin/admin_skeleton.html'%}
+
+
+{% block content%}
+{% load staticfiles %}
+<div class="content-wrapper">
+    <div class="content body">
+    <section class="content">
+        <h2 class="page-header">emo<b>JI</b></h2>
+
+        <!--<div class="row">-->
+            <!--<div class="col-md-6">-->
+
+                <!--<a href="{% url 'admin_form' 1 %}">-->
+                    <!--&lt;!&ndash; Widget: user widget style 1 &ndash;&gt;-->
+                    <!--<div class="box box-widget widget-user">-->
+                        <!--&lt;!&ndash; Add the bg color to the header using any of the bg-* classes &ndash;&gt;-->
+                        <!--<div class="widget-user-header bg-blue">-->
+                            <!--<h3 class="widget-user-username">UPLOAD</h3>-->
+                        <!--</div>-->
+                        <!--<div class="widget-user-image">-->
+                            <!--<img class="img-circle" src="{% static 'dist/img/uploadico.png' %}" alt="User Avatar">-->
+                        <!--</div>-->
+                        <!--<div class="box-footer">-->
+                            <!--<div class="row">-->
+                                <!--<div class="col-sm-4 border-right">-->
+
+                                <!--</div>-->
+                                <!--&lt;!&ndash; /.col &ndash;&gt;-->
+                                <!--<div class="col-sm-4 border-right">-->
+                                    <!--<div class="description-block">-->
+                                        <!--<h5 class="description-header">13,000</h5>-->
+                                        <!--<span class="description-text">IMAGES</span>-->
+                                    <!--</div>-->
+                                    <!--&lt;!&ndash; /.description-block &ndash;&gt;-->
+                                <!--</div>-->
+                                <!--&lt;!&ndash; /.col &ndash;&gt;-->
+                                <!--<div class="col-sm-4">-->
+                                    <!--<div class="description-block">-->
+
+                                    <!--</div>-->
+                                    <!--&lt;!&ndash; /.description-block &ndash;&gt;-->
+                                <!--</div>-->
+                                <!--&lt;!&ndash; /.col &ndash;&gt;-->
+                            <!--</div>-->
+                            <!--&lt;!&ndash; /.row &ndash;&gt;-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--&lt;!&ndash; /.widget-user &ndash;&gt;-->
+                <!--</a>-->
+
+            <!--</div>-->
+            <!--&lt;!&ndash; /.col &ndash;&gt;-->
+            <!--<div class="col-md-6">-->
+                <!--<a href="{% url 'admin_form' 2 %}">-->
+                    <!--&lt;!&ndash; Widget: user widget style 1 &ndash;&gt;-->
+                    <!--<div class="box box-widget widget-user">-->
+                        <!--&lt;!&ndash; Add the bg color to the header using any of the bg-* classes &ndash;&gt;-->
+                        <!--<div class="widget-user-header bg-green">-->
+                            <!--<h3 class="widget-user-username">COMMIT</h3>-->
+                        <!--</div>-->
+                        <!--<div class="widget-user-image">-->
+                            <!--<img class="img-circle" src="{% static 'dist/img/commitico.jpg' %}" alt="User Avatar">-->
+                        <!--</div>-->
+                        <!--<div class="box-footer">-->
+                            <!--<div class="row">-->
+                                <!--<div class="col-sm-4 border-right">-->
+                                    <!--<div class="description-block">-->
+                                    <!--</div>-->
+                                    <!--&lt;!&ndash; /.description-block &ndash;&gt;-->
+                                <!--</div>-->
+                                <!--&lt;!&ndash; /.col &ndash;&gt;-->
+                                <!--<div class="col-sm-4 border-right">-->
+                                    <!--<div class="description-block">-->
+                                        <!--<h5 class="description-header">13,000</h5>-->
+                                        <!--<span class="description-text">IMAGES</span>-->
+                                    <!--</div>-->
+                                    <!--&lt;!&ndash; /.description-block &ndash;&gt;-->
+                                <!--</div>-->
+                                <!--&lt;!&ndash; /.col &ndash;&gt;-->
+                                <!--<div class="col-sm-4">-->
+                                    <!--<div class="description-block">-->
+                                    <!--</div>-->
+                                    <!--&lt;!&ndash; /.description-block &ndash;&gt;-->
+                                <!--</div>-->
+                                <!--&lt;!&ndash; /.col &ndash;&gt;-->
+                            <!--</div>-->
+                            <!--&lt;!&ndash; /.row &ndash;&gt;-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--&lt;!&ndash; /.widget-user &ndash;&gt;-->
+                <!--</a>-->
+
+            <!--</div>-->
+            <!--&lt;!&ndash; /.col &ndash;&gt;-->
+        <!--</div>-->
+        <!--&lt;!&ndash; /.row &ndash;&gt;-->
+        <!--<div class="row">-->
+
+            <!--<div class='col-sm-3'>-->
+                <!--<img class='img-responsive' src="{% static 'dist/img/photo2.png' %}" alt='Photo'>-->
+            <!--</div>-->
+             <!--<div class='col-sm-3'>-->
+                <!--<img class='img-responsive' src="{% static 'dist/img/photo2.png' %}" alt='Photo'>-->
+            <!--</div>-->
+             <!--<div class='col-sm-3'>-->
+                <!--<img class='img-responsive' src="{% static 'dist/img/photo2.png' %}" alt='Photo'>-->
+            <!--</div>-->
+             <!--<div class='col-sm-3'>-->
+                <!--<img class='img-responsive' src="{% static 'dist/img/photo2.png' %}" alt='Photo'>-->
+                 <!--<br>-->
+            <!--</div>-->
+
+            <!--&lt;!&ndash; /.col &ndash;&gt;-->
+        <!--</div>-->
+        <!--&lt;!&ndash; /.row &ndash;&gt;-->
+        <!--<div class="row">-->
+            <!--<i class="fa fa-camera bg-purple"></i>-->
+                  <!--<div class="timeline-item">-->
+                    <!--<span class="time"><i class="fa fa-clock-o"></i> 2 days ago</span>-->
+                    <!--<h3 class="timeline-header"><a href="#">Mina Lee</a> uploaded new photos</h3>-->
+                    <!--<div class="timeline-body">-->
+                       <!--<img class='img-responsive' src="{% static 'dist/img/photo2.png' %}" alt="..." class="margin">-->
+                       <!--<img class='img-responsive' src="{% static 'dist/img/photo2.png' %}" alt='Photo'>-->
+                       <!--<img class='img-responsive' src="{% static 'dist/img/photo2.png' %}" alt='Photo'>-->
+                       <!--<img class='img-responsive' src="{% static 'dist/img/photo2.png' %}" alt='Photo'>-->
+                    <!--</div>-->
+                  <!--</div>-->
+        <!--</div>-->
+
+    <!-- row -->
+          <div class="row">
+            <div class="col-md-12">
+              <!-- The time line -->
+              <ul class="timeline">
+                <!-- timeline time label -->
+                <li class="time-label">
+                  <span class="bg-red">
+                    Device 1
+                  </span>
+                </li>
+                <!-- /.timeline-label -->
+                <!-- timeline item -->
+                 <li>
+                  <i class="fa fa-camera bg-purple"></i>
+                  <div class="timeline-item">
+                    <span class="time"><i class="fa fa-clock-o"></i> 2 days ago</span>
+                    <h3 class="timeline-header"><a href="#">Sub Device 1</a></h3>
+                    <div class="timeline-body">
+                      <img src="{% static 'dist/img/photo2.png' %}" alt="..." class="margin">
+                      <img src="{% static 'dist/img/photo2.png' %}" alt="..." class="margin">
+                      <img src="{% static 'dist/img/photo2.png' %}" alt="..." class="margin">
+                      <img src="{% static 'dist/img/photo2.png' %}" alt="..." class="margin">
+
+                    </div>
+                  </div>
+                </li>
+                  <li>
+                  <i class="fa fa-camera bg-purple"></i>
+                  <div class="timeline-item">
+                    <span class="time"><i class="fa fa-clock-o"></i> 2 days ago</span>
+                    <h3 class="timeline-header"><a href="#">Sub Device 1</a></h3>
+                    <div class="timeline-body">
+                      <img src="{% static 'dist/img/photo2.png' %}" alt="..." class="margin">
+                      <img src="{% static 'dist/img/photo2.png' %}" alt="..." class="margin">
+                      <img src="{% static 'dist/img/photo2.png' %}" alt="..." class="margin">
+                      <img src="{% static 'dist/img/photo2.png' %}" alt="..." class="margin">
+
+                    </div>
+                  </div>
+                </li>
+                <!-- /.timeline-label -->
+                <!-- timeline item -->
+                <li>
+                  <i class="fa fa-camera bg-purple"></i>
+                  <div class="timeline-item">
+                    <span class="time"><i class="fa fa-clock-o"></i> 2 days ago</span>
+                    <h3 class="timeline-header"><a href="#">Sub Device 2</a></h3>
+                    <div class="timeline-body">
+                      <img src="{% static 'dist/img/photo2.png' %}" alt="..." class="margin">
+                      <img src="{% static 'dist/img/photo2.png' %}" alt="..." class="margin">
+                      <img src="{% static 'dist/img/photo2.png' %}" alt="..." class="margin">
+                      <img src="{% static 'dist/img/photo2.png' %}" alt="..." class="margin">
+                    </div>
+                  </div>
+                </li>
+                <!-- END timeline item -->
+                <!-- timeline item -->
+
+                <!-- END timeline item -->
+
+              </ul>
+            </div><!-- /.col -->
+          </div><!-- /.row -->
+         <div class="row">
+            <div class="col-md-12">
+              <!-- The time line -->
+              <ul class="timeline">
+                <!-- timeline time label -->
+                <li class="time-label">
+                  <span class="bg-red">
+                    Device 1
+                  </span>
+                </li>
+                <!-- /.timeline-label -->
+                <!-- timeline item -->
+                 <li>
+                  <i class="fa fa-camera bg-purple"></i>
+                  <div class="timeline-item">
+                    <span class="time"><i class="fa fa-clock-o"></i> 2 days ago</span>
+                    <h3 class="timeline-header"><a href="#">Sub Device 1</a></h3>
+                    <div class="timeline-body">
+                      <img src="{% static 'dist/img/photo2.png' %}" alt="..." class="margin">
+                        <h5 style="margin: 5px 13px;">photo1</h5>
+                      <img src="{% static 'dist/img/photo2.png' %}" alt="..." class="margin">
+                        <h5 style="margin: 5px 13px;">photo1</h5>
+                      <img src="{% static 'dist/img/photo2.png' %}" alt="..." class="margin">
+                        <h5 style="margin: 5px 13px;">photo1</h5>
+                      <img src="{% static 'dist/img/photo2.png' %}" alt="..." class="margin">
+                        <h5 style="margin: 5px 13px;">photo1</h5>
+
+                    </div>
+                  </div>
+                </li>
+                  <li>
+                  <i class="fa fa-camera bg-purple"></i>
+                  <div class="timeline-item">
+                    <span class="time"><i class="fa fa-clock-o"></i> 2 days ago</span>
+                    <h3 class="timeline-header"><a href="#">Sub Device 1</a></h3>
+                    <div class="timeline-body">
+                      <img src="{% static 'dist/img/photo2.png' %}" alt="..." class="margin">
+                      <img src="{% static 'dist/img/photo2.png' %}" alt="..." class="margin">
+                      <img src="{% static 'dist/img/photo2.png' %}" alt="..." class="margin">
+                      <img src="{% static 'dist/img/photo2.png' %}" alt="..." class="margin">
+
+                    </div>
+                  </div>
+                </li>
+                <!-- /.timeline-label -->
+                <!-- timeline item -->
+                <li>
+                  <i class="fa fa-camera bg-purple"></i>
+                  <div class="timeline-item">
+                    <span class="time"><i class="fa fa-clock-o"></i> 2 days ago</span>
+                    <h3 class="timeline-header"><a href="#">Sub Device 2</a></h3>
+                    <div class="timeline-body">
+                      <img src="{% static 'dist/img/photo2.png' %}" alt="..." class="margin">
+                      <img src="{% static 'dist/img/photo2.png' %}" alt="..." class="margin">
+                      <img src="{% static 'dist/img/photo2.png' %}" alt="..." class="margin">
+                      <img src="{% static 'dist/img/photo2.png' %}" alt="..." class="margin">
+                    </div>
+                  </div>
+                </li>
+                <!-- END timeline item -->
+                <!-- timeline item -->
+
+                <!-- END timeline item -->
+
+              </ul>
+            </div><!-- /.col -->
+          </div><!-- /.row -->
+    </section>
+</div>
+</div>
+{% endblock %}
